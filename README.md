@@ -1,6 +1,7 @@
 🎮 Desafio Global — Jogo da Memória com Bandeiras do Mundo
 Olá! Eu sou a Ester e este é o meu projeto de jogo da memória, onde você testa sua capacidade de memorizar as bandeiras dos países do mundo. É divertido, 
 educativo e um desafio para sua memória visual!
+link do meu jogo : https://esterborba0407.github.io/meu-primeiro-jogo/
 
 🚀 Como funciona?
 O jogo começa mostrando algumas bandeiras para você memorizar. Depois, elas são embaralhadas e você precisa encontrar os pares corretos antes do tempo acabar.
