@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desafio Global</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="intro-container">
+    <img src="img/avatar.png" alt="Avatar" id="avatar">
+    <div id="speech-bubble">
+      Olá! Sou a Ester, criadora do jogo Desafio Global <br>
+      Memorize as bandeiras e avance aos níveis!
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>🌍 Desafio Global</h1>
+    <div id="level-info">Nível <span id="level">1</span></div>
+    <div id="timer-bar"></div>
+    <div id="game"></div>
+    <button id="start-button">Começar</button>
+    <div id="result-screen" class="hidden">
+      <h2>Fim de Jogo!</h2>
+      <p>Sua pontuação: <span id="final-score"></span></p>
+      <button onclick="reiniciarJogo()">Jogar Novamente</button>
+    </div>
+  </div>
+
+  <audio id="success-sound" src="success.mp3"></audio>
+  <audio id="fail-sound" src="fail.mp3"></audio>
+
+  <!-- VOZ ADICIONADA -->
+  <audio id="intro-voice" src="voz-intro.mp3" autoplay></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
